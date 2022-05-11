@@ -15,7 +15,7 @@
       Дата публикации: {{ post.pub_date|date:"d E Y" }}
     </li>
   </ul>
-  <br>{{ post.text }}</br>
+  <p>{{ post.text|linebreaksbr }}</p>
   {% if not forloop.last %}<hr>{% endif %}
   {% endfor %} 
 
