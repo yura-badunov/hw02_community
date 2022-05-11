@@ -34,4 +34,4 @@ class Post(models.Model):
 
     class Meta:
         ordering = ['-pub_date']
-        verbose_name = 'post'
+        verbose_name = 'Сортировка данных'
