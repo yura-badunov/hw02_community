@@ -4,6 +4,7 @@ from django.conf import settings
 
 from .models import Group, Post
 
+
 def index(request):
     posts = Post.objects.all()[:settings.POSTS_PAGE]
     context = {
